@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Halaman Utama</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <widget class="QPushButton" name="btnDokumentasi">
+     <property name="text">
+      <string>Dokumentasi</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnJabatan">
+     <property name="text">
+      <string>Jabatan</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnKlasifikasi">
+     <property name="text">
+      <string>Klasifikasi</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnLevelUser">
+     <property name="text">
+      <string>Level User</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSlider">
+     <property name="text">
+      <string>Slider</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSuratKeluar">
+     <property name="text">
+      <string>Surat Keluar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnSuratMasuk">
+     <property name="text">
+      <string>Surat Masuk</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnUser">
+     <property name="text">
+      <string>User</string>
+     </property>
+    </widget>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
